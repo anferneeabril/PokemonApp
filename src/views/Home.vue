@@ -1,18 +1,19 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <PokemonApi/>
+    <Pokemon_Weak_Card/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import PokemonApi from '@/components/PokemonApi.vue'
+import Pokemon_Weak_Card from '@/components/Pokemon_Weak_Card.vue'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    PokemonApi,
+    Pokemon_Weak_Card
   }
 }
 </script>
