@@ -1,5 +1,8 @@
 export default {
     grassAndPosion: {
-        type: []   
+        type: [],
+        resistantWeak: [],
+        strongAganist: [],
+        notEfectiveAganist: []
     }
 } 
